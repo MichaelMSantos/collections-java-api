@@ -38,8 +38,8 @@ public class CarrinhoDeCompras {
     public static void main(String[] args){
         CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
         carrinho.adicionarItem("Coca-Cola", 4., 2);
-        carrinho.adicionarItem("Monster", 12., 2);
-        carrinho.removeritem("Monster");
+        carrinho.adicionarItem("Pepsi", 4.50, 2);
+        carrinho.removeritem("Pepsi");
         carrinho.exibirItens();
         System.out.println("Valor total: R$ " + carrinho.calcularValorTotal());
     }
